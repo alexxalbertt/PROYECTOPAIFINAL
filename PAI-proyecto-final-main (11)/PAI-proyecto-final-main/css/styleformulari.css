@@ -1,0 +1,99 @@
+/* Estilos del formulari PAI - Primera part del projecte */
+
+/* Estil del cos del document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f5f5f5;
+}
+
+/* Estil dels títols principals */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Estil del formulari */
+#formulari {
+    background-color: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Estil dels labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* Estil dels camps d'entrada i selects */
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+/* Estil dels camps d'entrada quan estan enfocats */
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #0066cc;
+    background-color: #ffffcc;
+}
+
+/* Estil per mostrar error en camps */
+input.invalid,
+select.invalid {
+    border: 2px solid #ff0000;
+    background-color: #ffcccc;
+}
+
+/* Estil dels missatges d'error */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 3px;
+    display: block;
+}
+
+/* Estil dels checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estil dels botons */
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#enviar {
+    background-color: #28a745;
+    color: white;
+}
+
+#borrar {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Estil del contenidor de resultats */
+#resultat {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #28a745;
+    background-color: #d4edda;
+}

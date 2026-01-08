@@ -1,0 +1,36 @@
+/* ============================= */
+/* Estils generals dels resultats */
+/* ============================= */
+
+/* Zona on es mostren els resultats dels exercicis */
+#resultats {
+  background-color: #fff6cc;   /* Fons clar per destacar la zona */
+  padding: 15px;               /* Separació interna */
+  margin-top: 15px;            /* Espai respecte altres elements */
+  border-radius: 5px;          /* Cantonades arrodonides */
+}
+
+/* Paràgrafs dins la zona de resultats */
+#resultats p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Llista d'accidents per districte */
+#resultats ul {
+  list-style-type: square;     /* Tipus de vinyeta */
+  margin-left: 20px;
+}
+
+/* Elements de la llista */
+#resultats li {
+  margin: 5px 0;
+}
+
+/* Select del formulari de districtes */
+#districtes {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+/* Fitxer CSS estudiants */
