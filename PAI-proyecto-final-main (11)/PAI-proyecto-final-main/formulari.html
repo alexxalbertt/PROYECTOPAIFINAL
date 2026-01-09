@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari PAI</title>
+    <link rel="stylesheet" href="css/styleformulari.css">
+</head>
+<body>
+
+<h1>Formulari de registre</h1>
+
+<form id="formulari">
+
+    <label>Nom i cognoms:</label>
+    <input type="text" id="nom">
+    <span class="error" id="errorNom"></span>
+
+    <label>Rang d'edat:</label>
+    <select id="edat">
+        <option value="">Selecciona una opció</option>
+        <option>0-17</option>
+        <option>18-25</option>
+        <option>26-40</option>
+        <option>41-55</option>
+        <option>56-65</option>
+        <option>Més de 65</option>
+    </select>
+    <span class="error" id="errorEdat"></span>
+
+    <label>Codi postal:</label>
+    <input type="text" id="cp">
+    <span class="error" id="errorCP"></span>
+
+    <label>Correu electrònic:</label>
+    <input type="text" id="email">
+    <span class="error" id="errorEmail"></span>
+
+    <label>Contrasenya:</label>
+    <input type="password" id="pass">
+    <input type="checkbox" id="mostrarPass"> Mostrar
+    <span class="error" id="errorPass"></span>
+
+    <label>Confirmar contrasenya:</label>
+    <input type="password" id="pass2">
+    <input type="checkbox" id="mostrarPass2"> Mostrar
+    <span class="error" id="errorPass2"></span>
+
+    <input type="checkbox" id="privacitat"> Accepto la política de privacitat
+    <span class="error" id="errorPrivacitat"></span>
+
+    <button type="button" id="borrar">Esborrar</button>
+    <button type="button" id="enviar">Enviar</button>
+
+</form>
+
+<div id="resultat"></div>
+
+<script src="js/formulari-simple.js"></script>
+</body>
+</html>
